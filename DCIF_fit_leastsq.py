@@ -16,7 +16,8 @@ class DCIF:
 
     def __init__(self, filename, error_name, dq, qloc, show):
         """
-        :param filename: name of text file produced by DDM software
+        :param filename: name of text file produced by DDM software containing raw DDM spectrum data
+        :param error_name: name of text file produced by DDM software containing standard error on each raw data point
         :param dq: step of q values, found in JSON file produced by DDM software
         :param qloc: specific q value you wish to analyse/fit
         """
