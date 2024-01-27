@@ -1,18 +1,15 @@
 import json
 import os
-
 import numpy as np
 from matplotlib.pyplot import cm
 import matplotlib.pyplot as plt
-
 from DCIF_fit_leastsq import DCIF
-
 import seaborn as sns
 
 sns.set_theme(context='notebook', style='whitegrid', palette='tab10')
 
 
-class Main:
+class main:
     def __init__(self):
         self.directory = input('Input Directory Path: ')
 
