@@ -768,5 +768,5 @@ class main:
         plt.show()
 
 
-main = Main()
+main = main()
 main.run()
